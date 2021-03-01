@@ -57,7 +57,7 @@ void MouseEvent()
 	//准备参数
 	g_rect = Rect(-1, -1, 0, 0);
 	Mat srcImage(600, 600, CV_8UC3), tempImage;
-	srcImage = imread("D:\\work\\Projects\\MFCApplication1\\MFCApplication1\\res\\test.jpg");
+	srcImage = imread("D:\\work\\Projects\\mfc_img_rec\\MFCApplication1\\res\\test.jpg");
 	srcImage.copyTo(tempImage);
 	g_rect = Rect(-1, -1, 0, 0);
 	//srcImage = Scalar::all(0);
@@ -82,11 +82,6 @@ void MouseEvent()
 	}
 }
 
-
-
-
-
-
 int main()
 {
 	
@@ -95,6 +90,7 @@ int main()
 	//cout << "area:" << area << "mm" << endl;
 	//system("pause");
 	MouseEvent();
+	cout << "修改代码" << endl;
 	return 0;
 }
 
