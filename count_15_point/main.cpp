@@ -90,9 +90,6 @@ int main()
 	//cout << "area:" << area << "mm" << endl;
 	//system("pause");
 	MouseEvent();
-	cout << "修改代码" << endl;
-	cout << "修改代码" << endl;
-	cout << "修改代码" << endl;
 	return 0;
 }
 
