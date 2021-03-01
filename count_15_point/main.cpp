@@ -91,6 +91,7 @@ int main()
 	//system("pause");
 	MouseEvent();
 	cout << "修改代码" << endl;
+	cout << "修改代码" << endl;
 	return 0;
 }
 
